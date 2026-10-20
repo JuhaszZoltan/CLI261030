@@ -1,6 +1,6 @@
 ﻿# LINQ Gyakorlófeladatok (part #1)
 
-## A Feladatsor
+## Feladatsor
 
 - [ ] **1.** Hány olyan termékünk van összesen, aminek az ára kevesebb mint 10 000 Ft?
 - [ ] **2.** Melyik a legdrágább termék a teljes kínálatban? (Válaszként a teljes objektumra van szükség.)
@@ -18,7 +18,7 @@
 - [ ] **14.** Létezik-e legalább egy olyan termék a rendszerben, amiből több mint 300 darab porosodik a raktáron?
 - [ ] **15.** Melyik a legutolsó "Monitor" kategóriájú termék a lista sorrendje alapján?
 - [ ] **16.** Melyik a legrosszabbra értékelt termék az egész raktárban?
-- [ ] **17.** Mekkora a teljes árukészletünk összértéke (ár × készlet) az összes kategóriát egybevéve?
+- [x] **17.** Mekkora a teljes árukészletünk összértéke (ár × készlet) az összes kategóriát egybevéve?
 - [ ] **18.** Igaz-e, hogy az összes raktáron lévő termékünk ára 1 000 000 Ft alatt van?
 - [ ] **19.** Keresd meg a "Gamer Pro 19" nevű modellt! A program fusson tovább hiba nélkül akkor is, ha ilyen termék még nem létezik a rendszerben.
 - [ ] **20.** Mi az átlagos ára a kínálatunkban szereplő 80 db terméknek?
