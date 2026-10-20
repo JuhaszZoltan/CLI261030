@@ -3,10 +3,10 @@
 ## első rész: `sum`, `average`, `count`, `min`, `max`, `minby`, `maxby`, `any`, `all`, `first`-, `last`-, `single`- +(`ordefault`) 
 
 - [ ] **1.** Hány olyan termékünk van összesen, aminek az ára kevesebb mint 10 000 Ft?
-- [ ] **2.** Melyik a legdrágább termék a teljes kínálatban? (Válaszként a teljes objektumra van szükség.)
+- [x] **2.** Melyik a legdrágább termék a teljes kínálatban? (Válaszként a teljes objektumra van szükség.)
 - [ ] **3.** Keresd meg a listában azt az egyetlen terméket, amelynek az `Id`-ja pontosan 42!
 - [ ] **4.** Van-e egyáltalán olyan termék a teljes kínálatban, aminek az ára meghaladja az 1 000 000 Ft-ot?
-- [ ] **5.** Mennyi az összes termékünk átlagos értékelése a webshopban (a teljes listát nézve)?
+- [x] **5.** Mennyi az összes termékünk átlagos értékelése a webshopban (a teljes listát nézve)?
 - [ ] **6.** Keresd meg az első "Quantum" gyártmányú okostelefont, amelynek az ára 200 000 Ft alatt van! (Ha nincs ilyen, az eredmény legyen `null`).
 - [ ] **7.** Keresd meg a lista legutolsó olyan termékét, amiből pontosan 0 darab van raktáron! (Ha nincs ilyen, az eredmény legyen `null`).
 - [ ] **8.** Igaz-e az az állítás, hogy a kínálatunkban lévő összes termék értékelése eléri a 3.0-t?
