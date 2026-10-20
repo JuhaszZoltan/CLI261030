@@ -1,6 +1,6 @@
-﻿# LINQ Gyakorlófeladatok (part #1)
+﻿# LINQ Gyakorlófeladatok
 
-## Feladatsor
+## első rész: `sum`, `average`, `count`, `min`, `max`, `minby`, `maxby`, `any`, `all`, `first`-, `last`-, `single`- +(`ordefault`) 
 
 - [ ] **1.** Hány olyan termékünk van összesen, aminek az ára kevesebb mint 10 000 Ft?
 - [ ] **2.** Melyik a legdrágább termék a teljes kínálatban? (Válaszként a teljes objektumra van szükség.)
