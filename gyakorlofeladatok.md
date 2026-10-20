@@ -22,3 +22,23 @@
 - [ ] **18.** Igaz-e, hogy az összes raktáron lévő termékünk ára 1 000 000 Ft alatt van?
 - [ ] **19.** Keresd meg a "Gamer Pro 19" nevű modellt! A program fusson tovább hiba nélkül akkor is, ha ilyen termék még nem létezik a rendszerben.
 - [ ] **20.** Mi az átlagos ára a kínálatunkban szereplő 80 db terméknek?
+- [ ] **21.** Keresd meg a listában azt a "Cyber" gyártmányú terméket, aminek az értékelése hajszálpontosan 3.8! (Tegyük fel, hogy nem tudjuk, hány ilyen van, de az elsőt kérjük).
+- [ ] **22.** Igaz-e az az állítás, hogy az összes "Kiegeszito" kategóriájú termékből van legalább 10 db raktáron?
+- [ ] **23.** Hány olyan termékünk van, aminek a gyártója "Apex" és az ára 20 000 Ft felett van?
+- [ ] **24.** Melyik az az egyetlen termék, aminek az azonosítója (`Id`) pontosan 80?
+- [ ] **25.** Mennyi az átlagos készletszint (darabszám) a "NextGen" márkájú termékek esetében?
+- [ ] **26.** Melyik a legolcsóbb "Monitor" a jelenlegi kínálatunkban?
+- [ ] **27.** Van-e olyan "Laptop" a listában, amiből több mint 100 darab porosodik a raktáron?
+- [ ] **28.** Mennyi a "Tablet" kategóriájú termékek értékelésének átlaga?
+- [ ] **29.** Keresd meg a lista legelső olyan termékét, aminek az ára pontosan 45 000 Ft!
+- [ ] **30.** Melyik az utolsó olyan termék a fájlban, aminek az értékelése tökéletes (5.0)?
+- [ ] **31.** Hány darab olyan termékünk van összesen, amelynek a nevében (`Modell`) szerepel a "Pro" szó?
+- [ ] **32.** Mekkora a "Nova" gyártó összes termékének együttes készletértéke forintban (ár × darab)?
+- [ ] **33.** Melyik az a "SoundWave" termék, amiből a legkevesebb van raktáron?
+- [ ] **34.** Igaz-e, hogy az összes 500 000 Ft-nál drágább prémium termékünk értékelése legalább 4.5?
+- [ ] **35.** Keresd meg a rendszerben azt az egyetlen terméket, amelynek a modellneve "Pocket 6G"!
+- [ ] **36.** Van-e olyan termék a "Kiegeszito" kategóriában, ami drágább, mint 50 000 Ft?
+- [ ] **37.** Keresd meg a legelső olyan "TechPro" márkájú terméket, amelynek az ára még 100 000 Ft alatt van! (Biztosítsd, hogy ne fagyjon le a kód, ha ilyen már nincs).
+- [ ] **38.** Melyik a legmagasabb értékelést kapott "Okostelefon" az egész listában?
+- [ ] **39.** Hány darab termékünk van összesen az "Apex" és a "Quantum" gyártóktól együttesen? (Egy lekérdezésben oldd meg!)
+- [ ] **40.** Keresd meg a sorrend szerinti legutolsó olyan terméket a listában, ami "Vision" gyártmányú!
