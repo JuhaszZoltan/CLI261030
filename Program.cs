@@ -1,5 +1,6 @@
 ﻿# nullable disable
 
+# region dataset
 const string FilePath = "..\\..\\..\\data\\arukeszlet.csv";
 
 List<Product> products = [];
@@ -8,9 +9,11 @@ using StreamReader stream = new(FilePath);
 _ = stream.ReadLine();
 while (!stream.EndOfStream) products.Add(new(stream.ReadLine()));
 
-//TESZ #01
+//TEST #01
 //products.ForEach(x => Console.WriteLine($"{x}\n--------------------------------"));
+#endregion
 
+#region examples
 var inventorySumValue = products.Sum(p => p.PriceHUF * p.StockQTY);
 Console.WriteLine($"árukészlet: örrértéke: {inventorySumValue:N0} HUF");
 
@@ -57,8 +60,8 @@ Console.WriteLine($"az EGYETLEN vezeték nélküli egér:\n{singleWirelessMouse}
 //ha NINCS találat a firs, last v. single-re, akkor "Sequence contains no matching element" exceptiont dob!
 
 Console.Write("írja be milyen terméket keres: ");
-string keyword = Console.ReadLine().ToLower();
-var firstIfExist = products.FirstOrDefault(p => p.Model.ToLower().Contains(keyword));
+string keyword = Console.ReadLine();
+var firstIfExist = products.FirstOrDefault(p => p.Model.Contains(keyword));
 
 if (firstIfExist is not null)
 {
@@ -72,3 +75,4 @@ else Console.WriteLine($"NINCS olyan termék, aminek a neve tartalmazná azt, ho
 //a single és a singleordefault "Sequence contains more than one matching element" exceptiont dob, HA több találat van!
 
 //a .find és az findidex, ezek szintén nem LINQ ext. methodok
+#endregion
