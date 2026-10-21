@@ -36,6 +36,13 @@ Console.WriteLine($"{(isAllProdsOver2K ? "MINDEN" : "NEM MINDEN")} termék drág
 
 //hasonló a .contains -> de az NEM LINQ, hanem a collection.generic method
 
+/*
+     'eldöntés'    'lineáris keresés'
+      first()      firstordefault()
+      last()       lastordefault()
+      single()     singleordefault()
+*/
+
 var firstSignQtyProd = products.First(p => p.StockQTY >= 400);
 Console.WriteLine($"az első olyan termék az árukészletben, amiből legalább 400 db van raktáron " +
     $"(ID: {firstSignQtyProd.Id}):\n{firstSignQtyProd}");
@@ -60,30 +67,8 @@ if (firstIfExist is not null)
 }
 else Console.WriteLine($"NINCS olyan termék, aminek a neve tartalmazná azt, hogy '{keyword}'");
 
-
-/*
- * first()      firstordefault()
- * last()       lastordefault()
- * single()     singleordefault()
-*/
-
-
 //lastordefault az ue., csak a rendre utolsó példányt adja vissza a kollekcióból, ami megfelel a delegate <predicate>-jének
 
 //a single és a singleordefault "Sequence contains more than one matching element" exceptiont dob, HA több találat van!
 
 //a .find és az findidex, ezek szintén nem LINQ ext. methodok
-
-
-//kiválasztás:
-
-//pred.: a gyártó neve 'Apex'
-
-
-Console.WriteLine("\n==========================");
-Console.WriteLine("\n==========================");
-
-int i = 0;
-while (products[i].Manufacturer != "Apex") i++;
-
-Console.WriteLine($"első apex termék:\n{products[i]}");
